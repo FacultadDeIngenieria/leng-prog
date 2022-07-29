@@ -9,7 +9,8 @@
 
 ### Trabajos Prácticos
 1. TP1:
-	- [Fracciones] (exercises/fraction/README.md) 
+    - [Fraction](exercises/fraction/README.md)  
+
 2. Ejercicios Listas
 
 ### Calendario
@@ -37,7 +38,7 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 
 * [Haskell oficial web site](https://www.haskell.org)
 * [Learn You a Haskell for Great Good](http://learnyouahaskell.com)
-* [A gentle introduction to Haskell](haskell-98-tutorial.pdf)
+* [A gentle introduction to Haskell](files/haskell-98-tutorial.pdf)
 
 
 

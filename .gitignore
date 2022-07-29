@@ -30,3 +30,7 @@ hs_err_pid*
 # Stack
 .stack-work
 *.cabal
+
+# Mac stuff
+
+.DS_Store

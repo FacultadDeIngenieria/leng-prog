@@ -23,13 +23,14 @@ type Fraction = (Int, Int)
 (4,2)
 ```
 
-## 2. Implement the Highest common factor function **`hcf`** _(AKA greatest common divisor)_
+## 2. Implement the Greatest Common Denominator Function (`gCD`)
+
 ```Haskell
-> hcf 4 2
+> gCD 4 2
 2
-> hcf 3 2
+> gCD 3 2
 1
-> hcf 2 0
+> gCD 2 0
 2
 ```
 
@@ -42,6 +43,6 @@ type Fraction = (Int, Int)
 (1, 4)
 >mul (1,2) (1,4)
 (1,8)
-> div (1,2) (1,4)
+>div (1,2) (1,4)
 (2,1)
 ```
