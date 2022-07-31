@@ -5,6 +5,7 @@
 ### Temas teórica:
 1. [Introduction](classes/Class-01.slides.html)
 2. [List, Higher Order Functions](classes/Class-02.slides.html)
+3. [User defined types, Error handling, Type classes](classes/Class-03.slides.html)
 
 
 ### Trabajos Prácticos
@@ -39,6 +40,12 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 * [Haskell oficial web site](https://www.haskell.org)
 * [Learn You a Haskell for Great Good](http://learnyouahaskell.com)
 * [A gentle introduction to Haskell](files/haskell-98-tutorial.pdf)
+
+## Recursos
+
+* [Haskell library search Engine](https://hoogle.haskell.org)
+* [Haskell package repository](https://hackage.haskell.org)
+
 
 
 
