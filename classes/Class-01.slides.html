@@ -14811,15 +14811,60 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 style="text-align: ;">Typing</h2><ul>
-<li>Static Typing</li>
-<li>Dynamic Typing</li>
+<h2 style="text-align: center;">Type Systems</h2><h3 id="Static-Typing-(AKA-Strong-typing)">Static Typing (AKA Strong typing)<a class="anchor-link" href="#Static-Typing-(AKA-Strong-typing)">&#182;</a></h3><blockquote><p>The types of the variables are known at <strong>compile time</strong>. So the compiler can verify that they are used consistently.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Dynamic-Typing-(AKA-Weak-or-Duck-typing)">Dynamic Typing (AKA Weak or Duck typing)<a class="anchor-link" href="#Dynamic-Typing-(AKA-Weak-or-Duck-typing)">&#182;</a></h3><blockquote><p>The types of the variables are known <strong>only</strong> at <strong>runtime</strong>. They are not tied to the variables, so they can change depending on the current execution flow.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 style="text-align: center;">Type Systems - Pros & Cons</h2><h3 id="Dynamic-Typing">Dynamic Typing<a class="anchor-link" href="#Dynamic-Typing">&#182;</a></h3><ul>
+<li>You don't have to write the type of the variable. Code is more consice.</li>
+<li>It's simpler to write functions that work over different types (Polymorphism)</li>
+<li>OK for small, not critical code</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Static-Typing">Static Typing<a class="anchor-link" href="#Static-Typing">&#182;</a></h3><ul>
+<li>Code is better documented, and easier to understand by others</li>
+<li>More errors detected earlier in development.</li>
+<li>IDEs can help you to detect functions and methods</li>
+<li>Fewer errors at runtime and in shipped code.</li>
+<li>Allows for compiler optimisation which yields faster code.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14833,7 +14878,7 @@ div.jp-OutputPrompt {
 <li>Others:<ul>
 <li>Efficiency</li>
 <li>Portability</li>
-<li>Generality. Exensibility</li>
+<li>Generality. Extensibility</li>
 <li>Availability of tools and libraries</li>
 </ul>
 </li>
@@ -14961,9 +15006,9 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
 <li>Purely functional<ul>
-<li>Referential transparency (you canreason about program behavior as a rewrite system). </li>
+<li>Referential transparency (you can reason about program behavior as a rewrite system). </li>
 <li>Do <strong>not</strong> mutate state.</li>
-<li>Side-effecting IO operations live in there space and there are just a description of what to do based on the functional core</li>
+<li>Side-effecting IO operations live in their space and they are just a description of what to do based on the functional core</li>
 </ul>
 </li>
 </ul>
@@ -15003,13 +15048,17 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="mi">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">4</span><span class="w"></span>
 <span class="mi">5</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">10</span><span class="w"></span>
 <span class="p">(</span><span class="mi">50</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">4999</span><span class="w">  </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
 <span class="mi">2</span><span class="o">^</span><span class="mi">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="o">**</span><span class="mf">1.2</span><span class="w"></span>
+
+<span class="mi">3</span><span class="o">^</span><span class="mi">3</span><span class="w"></span>
+
+<span class="mi">4</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="mf">0.5</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15080,27 +15129,167 @@ div.jp-OutputPrompt {
 
 </div>
 
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>27</pre>
 </div>
 
 </div>
 
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>2.0</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="mi">10</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">20</span><span class="w"></span>
 <span class="mi">5</span><span class="w"> </span><span class="o">/=</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
-<span class="mi">15</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="o">^</span><span class="mi">2</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="w"></span>
+<span class="mi">15</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="o">^</span><span class="mi">2</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="mi">7</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
 <span class="nf">not</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Hello&quot;</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;He&quot;</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="s">&quot;llo&quot;</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>False</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>True</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>True</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>False</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-Haskell"><pre><span></span><span class="c1">-- div vs &#39;/&#39; rem. infix, vs prefix</span><span class="w"></span>
+
+<span class="p">(</span><span class="o">/</span><span class="p">)</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+
+<span class="mi">5</span><span class="w"> </span><span class="p">`</span><span class="n">div</span><span class="p">`</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>0.6666666666666666</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div></div></section></section><section><section>
@@ -15121,10 +15310,10 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="o">+</span><span class="mi">2</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="w"></span>
 <span class="nf">square</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="w"></span>
 <span class="nf">double</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">2</span><span class="o">*</span><span class="n">n</span><span class="w"></span>
 </pre></div>
@@ -15139,7 +15328,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
@@ -15168,7 +15357,7 @@ div.jp-OutputPrompt {
 
 
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
-<pre>4</pre>
+<pre>3</pre>
 </div>
 
 </div>
@@ -15210,10 +15399,10 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="kt">:</span><span class="n">t</span><span class="w"> </span><span class="n">succ</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="kt">:</span><span class="n">t</span><span class="w"> </span><span class="n">square</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15317,7 +15506,7 @@ color: red;
 .suggestion-name {
 font-weight: bold;
 }
-</style><span class='get-type'>succ :: forall a. Num a => a -> a</span>
+</style><span class='get-type'>square :: forall a. Num a => a -> a</span>
 </div>
 
 </div>
@@ -15326,126 +15515,19 @@ font-weight: bold;
 
 </div>
 
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
-<span class="nf">succ</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="w"></span>
-<span class="c1">-- succ 10.23</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><h3 style="text-align: center;">So many Parentheses .. so few Dollars&lt;/h2&gt;</p>
-<hr>
-
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="w"> </span><span class="n">succ</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-&lt;interactive&gt;:1:1: error:
-    • Couldn&#39;t match expected type ‘t0 -&gt; t’ with actual type ‘Int’
-    • The function ‘succ’ is applied to two arguments,
-      but its type ‘Int -&gt; Int’ has only one
-      In the expression: succ succ 3
-      In an equation for ‘it’: it = succ succ 3
-    • Relevant bindings include it :: t (bound at &lt;interactive&gt;:1:1)
-&lt;interactive&gt;:1:6: error:
-    • Couldn&#39;t match expected type ‘Int’ with actual type ‘Int -&gt; Int’
-    • Probable cause: ‘succ’ is applied to too few arguments
-      In the first argument of ‘succ’, namely ‘succ’
-      In the expression: succ succ 3
-      In an equation for ‘it’: it = succ succ 3</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">double</span><span class="w"> </span><span class="p">(</span><span class="n">succ</span><span class="w"> </span><span class="p">(</span><span class="n">square</span><span class="w"> </span><span class="p">(</span><span class="n">double</span><span class="w"> </span><span class="p">(</span><span class="n">succ</span><span class="w"> </span><span class="mi">3</span><span class="p">))))</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Using-$">Using <code>$</code><a class="anchor-link" href="#Using-$">&#182;</a></h4><p><code>f $ x = f x</code>.</p>
-<p>But the <code>$</code> operator has the lowest priotiy of all operators, so it is evaluated last</p>
-
-</div>
-</div>
-</div>
 </div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">double</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">succ</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">square</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">double</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">succ</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">succ</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
+<span class="nf">succ</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="w"></span>
+
+<span class="nf">succ</span><span class="w"> </span><span class="mi">10</span><span class="w"></span>
+<span class="nf">succ</span><span class="w"> </span><span class="mf">10.23</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15469,9 +15551,25 @@ font-weight: bold;
 
 
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
-<pre>130</pre>
+<pre>11</pre>
 </div>
 
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+&lt;interactive&gt;:1:6: error:
+    • No instance for (Fractional Int) arising from the literal ‘10.23’
+    • In the first argument of ‘succ’, namely ‘10.23’
+      In the expression: succ 10.23
+      In an equation for ‘it’: it = succ 10.23</pre>
+</div>
 </div>
 
 </div>
@@ -15514,7 +15612,7 @@ font-weight: bold;
 <span class="nf">max</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="n">b</span><span class="w"></span>
 
 <span class="nf">factorial</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
-<span class="nf">factorial</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="n">n</span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">factorial</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
+<span class="nf">factorial</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">factorial</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15542,11 +15640,11 @@ font-weight: bold;
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="nf">max</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">b</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">a</span><span class="w"></span>
+<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">b</span><span class="w">     </span><span class="ow">=</span><span class="w"> </span><span class="n">a</span><span class="w"></span>
 <span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">b</span><span class="w"></span>
 <span class="w"> </span>
 <span class="nf">factorial</span><span class="w"> </span><span class="n">n</span><span class="w"> </span>
-<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
+<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="w">    </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
 <span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">factorial</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
@@ -15567,12 +15665,12 @@ font-weight: bold;
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="nf">max4</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
@@ -15580,138 +15678,6 @@ font-weight: bold;
 <span class="w">    </span><span class="kr">where</span><span class="w"> </span><span class="n">max12</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="n">j</span><span class="w"> </span>
 <span class="w">          </span><span class="n">max34</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
 <span class="nf">max4</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">max4</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"></span>
-<span class="w">    </span><span class="kr">let</span><span class="w"> </span>
-<span class="w">        </span><span class="n">max12</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="n">j</span><span class="w"> </span>
-<span class="w">        </span><span class="n">max34</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
-<span class="w">    </span><span class="kr">in</span><span class="w">  </span><span class="n">max</span><span class="w"> </span><span class="n">max12</span><span class="w"> </span><span class="n">max34</span><span class="w"></span>
-<span class="nf">max4</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><h3 style="text-align: center;">Pattern Matching&lt;/h2&gt;</p>
-<hr>
-
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">fibo</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
-<span class="nf">fibo</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-<span class="nf">fibo</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
-<span class="nf">fibo</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Tuples">Tuples<a class="anchor-link" href="#Tuples">&#182;</a></h4>
-</div>
-</div>
-</div>
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="p">(</span><span class="s">&quot;Oranges&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">)</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">price</span><span class="ow">::</span><span class="w"> </span><span class="p">(</span><span class="kt">String</span><span class="p">,</span><span class="w"> </span><span class="kt">Int</span><span class="p">,</span><span class="w"> </span><span class="kt">Float</span><span class="p">)</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"></span>
-<span class="nf">price</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">p</span><span class="w"></span>
-<span class="nf">price</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Oranges&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">)</span><span class="w"></span>
-<span class="c1">-- price (_, _, p) = p</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><h3 style="text-align: center;">Case expression&lt;/h2&gt;</p>
-<hr>
-
-</div>
-</div>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">fibo</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
-<span class="nf">fibo</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kr">case</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="kr">of</span><span class="w"></span>
-<span class="w">          </span><span class="mi">1</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-<span class="w">          </span><span class="mi">2</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
-<span class="w">          </span><span class="kr">_</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15735,7 +15701,7 @@ font-weight: bold;
 
 
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
-<pre>5</pre>
+<pre>4</pre>
 </div>
 
 </div>
@@ -15749,14 +15715,171 @@ font-weight: bold;
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">max4</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"></span>
+<span class="w">    </span><span class="kr">let</span><span class="w"> </span>
+<span class="w">        </span><span class="n">max12</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="n">j</span><span class="w"> </span>
+<span class="w">        </span><span class="n">max34</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="w">    </span><span class="kr">in</span><span class="w">  </span><span class="n">max</span><span class="w"> </span><span class="n">max12</span><span class="w"> </span><span class="n">max34</span><span class="w"></span>
+<span class="nf">max4</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>4</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><h3 style="text-align: center;">Pattern Matching&lt;/h2&gt;</p>
+<hr>
+
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">fibo</span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span><span class="w"></span>
+<span class="nf">fibo</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
+<span class="nf">fibo</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
+<span class="nf">fibo</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fibo</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="w">  </span>
+
+<span class="nf">fibo</span><span class="w"> </span><span class="mi">7</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>21</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Tuples">Tuples<a class="anchor-link" href="#Tuples">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-Haskell"><pre><span></span><span class="p">(</span><span class="s">&quot;Oranges&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">)</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>(&#34;Oranges&#34;,10,0.25)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="nf">price</span><span class="ow">::</span><span class="w"> </span><span class="p">(</span><span class="kt">String</span><span class="p">,</span><span class="w"> </span><span class="kt">Int</span><span class="p">,</span><span class="w"> </span><span class="kt">Float</span><span class="p">)</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"></span>
-<span class="nf">price</span><span class="w"> </span><span class="n">fruit</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kr">case</span><span class="w"> </span><span class="n">fruit</span><span class="w"> </span><span class="kr">of</span><span class="w"></span>
-<span class="w">                </span><span class="p">(</span><span class="kr">_</span><span class="p">,</span><span class="w"> </span><span class="kr">_</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="n">p</span><span class="w"></span>
-<span class="w">                </span>
-<span class="c1">-- price (_, _, p) = p</span><span class="w"></span>
+<span class="nf">price</span><span class="w"> </span><span class="p">(</span><span class="kr">_</span><span class="p">,</span><span class="w"> </span><span class="kr">_</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">p</span><span class="w"></span>
+
+
+<span class="nf">price</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;Oranges&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -15826,7 +15949,7 @@ font-weight: bold;
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-Haskell"><pre><span></span><span class="nf">quadratic</span><span class="ow">::</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"></span>
@@ -15852,20 +15975,51 @@ font-weight: bold;
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="c1">-- Develop in class</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">quadratic</span><span class="ow">::</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"></span>
+<span class="nf">quadratic</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="n">c</span><span class="w"> </span>
+<span class="w">        </span><span class="o">|</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">0</span><span class="w">     </span><span class="ow">=</span><span class="w"> </span><span class="ne">error</span><span class="w"> </span><span class="s">&quot;Not real roots&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">sq</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">a</span><span class="p">)</span><span class="w"></span>
+<span class="w">    </span><span class="kr">where</span><span class="w"> </span>
+<span class="w">        </span><span class="n">r</span><span class="w">   </span><span class="ow">=</span><span class="w"> </span><span class="n">b</span><span class="o">^</span><span class="mi">2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">c</span><span class="w"> </span>
+<span class="w">        </span><span class="n">sq</span><span class="w">  </span><span class="ow">=</span><span class="w"> </span><span class="n">sqrt</span><span class="w"> </span><span class="n">r</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+Not real roots
+CallStack (from HasCallStack):
+  error, called at &lt;interactive&gt;:3:23 in interactive:Ghci1611</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div></div></section></section><section><section>
@@ -15880,20 +16034,54 @@ font-weight: bold;
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="c1">-- Develop in class</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">quadratic</span><span class="ow">::</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="p">(</span><span class="kt">Double</span><span class="p">,</span><span class="w"> </span><span class="kt">Double</span><span class="p">)</span><span class="w"></span>
+<span class="nf">quadratic</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="n">c</span><span class="w"> </span>
+<span class="w">        </span><span class="o">|</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">0</span><span class="w">     </span><span class="ow">=</span><span class="w"> </span><span class="ne">error</span><span class="w"> </span><span class="s">&quot;Not real roots&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="p">((</span><span class="o">-</span><span class="n">b</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">sq</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">a2</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">sq</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">a2</span><span class="p">)</span><span class="w"></span>
+<span class="w">    </span><span class="kr">where</span><span class="w"> </span>
+<span class="w">        </span><span class="n">r</span><span class="w">   </span><span class="ow">=</span><span class="w"> </span><span class="n">b</span><span class="o">^</span><span class="mi">2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">c</span><span class="w"> </span>
+<span class="w">        </span><span class="n">sq</span><span class="w">  </span><span class="ow">=</span><span class="w"> </span><span class="n">sqrt</span><span class="w"> </span><span class="n">r</span><span class="w"></span>
+<span class="w">        </span><span class="n">a2</span><span class="w">  </span><span class="ow">=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">a</span><span class="w"></span>
+
+<span class="nf">quadratic</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>(1.0,-1.0)</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div></div></section></section><section><section>
@@ -15908,17 +16096,17 @@ font-weight: bold;
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">quadratic</span><span class="ow">::</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="p">((</span><span class="kt">Float</span><span class="p">,</span><span class="w"> </span><span class="kt">Float</span><span class="p">),</span><span class="w"> </span><span class="p">(</span><span class="kt">Float</span><span class="p">,</span><span class="w"> </span><span class="kt">Float</span><span class="p">))</span><span class="w"></span>
+<div class=" highlight hl-Haskell"><pre><span></span><span class="nf">quadratic</span><span class="ow">::</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Float</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="p">(</span><span class="kt">Float</span><span class="p">,</span><span class="w"> </span><span class="kt">Float</span><span class="p">)</span><span class="w"></span>
 <span class="nf">quadratic</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="n">c</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="ne">error</span><span class="w"> </span><span class="s">&quot;Invalid a == 0, b == 0&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="ne">error</span><span class="w"> </span><span class="s">&quot;Invalid a == 0, b == 0&quot;</span><span class="w"></span>
 <span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">0</span><span class="w">            </span><span class="ow">=</span><span class="w"> </span><span class="ne">error</span><span class="w"> </span><span class="s">&quot;Imaginary root&quot;</span><span class="w"></span>
 <span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w">           </span><span class="ow">=</span><span class="w"> </span><span class="p">(</span><span class="n">cb</span><span class="p">,</span><span class="w"> </span><span class="n">cb</span><span class="p">)</span><span class="w"></span>
 <span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w">        </span><span class="ow">=</span><span class="w"> </span><span class="p">(</span><span class="n">t1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">t2</span><span class="p">,</span><span class="w"> </span><span class="n">t1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">t2</span><span class="p">)</span><span class="w"></span>
@@ -15928,12 +16116,37 @@ font-weight: bold;
 <span class="w">        </span><span class="n">t2</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">sqrt</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span><span class="w"></span>
 <span class="w">        </span><span class="n">cb</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="n">c</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">b</span><span class="w"></span>
 <span class="w">        </span>
-<span class="nf">quadratic</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
+<span class="nf">quadratic</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mf">1.0</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>(1.0,1.0)</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div></div></section></section>
