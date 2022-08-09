@@ -39,7 +39,7 @@ Should print:
 ```  
 ---
 ```haskell
-hello "Juan"
+> hello "Juan"
 ```
 Should print:
 
@@ -48,7 +48,7 @@ Should print:
 ```  
 ---
 ```haskell
-obliqueShot 45 10
+> obliqueShot 45 10
 ```
 Should print:
 

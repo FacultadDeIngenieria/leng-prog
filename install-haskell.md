@@ -55,7 +55,7 @@ In the **import** window select **import from external model**,  **haskell stack
 
 Hit **create**
 
-In the **Project SKD** pool down select **Haskell tool Stack**
+In the **Project SKD** pull down select **Haskell tool Stack**
 
 If it is not there select **Add Stack executable** and add it.
 
