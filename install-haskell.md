@@ -31,6 +31,7 @@ stack ghci
 
 ## Try your first project
 
+### [Example](exercises/example/README.md)
 From the command line:
 
 1. `cd` to `<git-root>/leng-prog/exercises/example`
