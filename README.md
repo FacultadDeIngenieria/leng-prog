@@ -11,8 +11,10 @@
 ### Trabajos Prácticos
 1. TP1:
     - [Fraction](exercises/fraction/README.md)  
+    - [Collatz Conjecture](exercises/collatz-conjecture/README.md)  
 
-2. Ejercicios Listas
+2. TP2:
+    - [Ejercicios Listas](exercises/lists/README.md)  
 
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
