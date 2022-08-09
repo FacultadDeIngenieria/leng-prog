@@ -33,7 +33,11 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 14. 14, 15 Noviembre
 
 
-## Prerequisitos: [see](students.md)
+## Environment setup:
+   
+   - [Install Git](install-git.md)
+   - Clone the repository: `git clone git@github.com:FacultadDeIngenieria/leng-prog.git`
+  - [Install Haskell](install-haskell.md)
 
 ## Bibliografía
 
