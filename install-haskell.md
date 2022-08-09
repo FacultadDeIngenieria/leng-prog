@@ -42,6 +42,36 @@ From the command line:
 
 ### Install haskell Intellij plugin: (`Preferences/Plugins/Marketplace`) Search for *Intellij-Haskell*![](classes/images/intellij-haskell.png).
 
+### Open the example project:
+
+Click **Open** and select the **example** directory:
+
+![](classes/images/ide-open-example.png)
+
+In the **import** window select **import from external model**,  **haskell stack**
+
+![](classes/images/ide-import-stack.png)
+
+Hit **create**
+
+In the **Project SKD** pool down select **Haskell tool Stack**
+
+If it is not there select **Add Stack executable** and add it.
+
+Hit **create** 
+
+It should open the project.
+
+Now you should be able to Edit and add configurations like:
+
+* Haskell Stack Repl
+* Haskell Stack Test
+
+To run the **tests** or the **repl** from inside Intellij
+
+Try them !
+
+
 
 
 
