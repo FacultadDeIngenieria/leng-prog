@@ -30,6 +30,7 @@ hs_err_pid*
 # Stack
 .stack-work
 *.cabal
+stack.yaml.lock
 
 # Mac stuff
 

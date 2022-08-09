@@ -35,8 +35,8 @@ From the command line:
 
 1. `cd` to `<git-root>/leng-prog/exercises/example`
 2. Run `stack build`. It should compile OK.
-3. Run `stack ghci`. You should be able to execute the `test` function.
-4. Run `stack test`. Test should pass.
+3. Run `stack ghci`. You should be able to execute the `help`, `hello` and `obliqueShot` functions.
+4. Run `stack test`. Tests should pass.
 
 ## IDE Support
 
