@@ -15,8 +15,6 @@
  ```shell
  	stack upgrade
  ```	
-* Try ghci from the command line: `stack ghci`
-
 
 ### Windows
 
@@ -26,7 +24,7 @@ To Install Stack [For Windows](https://docs.haskellstack.org/en/stable/install_a
 
 From the command line:
 ```shell
-stack ghci
+stack --version
 ```
 
 ## Try your first project
@@ -34,7 +32,7 @@ stack ghci
 ### [Example](exercises/example/README.md)
 From the command line:
 
-1. `cd` to `<git-root>/leng-prog/exercises/example`
+1. CD into the project directory:  `cd $PROJECTS/leng-prog/exercises/example`
 2. Run `stack build`. It should compile OK.
 3. Run `stack ghci`. You should be able to execute the `help`, `hello` and `obliqueShot` functions.
 4. Run `stack test`. Tests should pass.
@@ -71,10 +69,4 @@ Now you should be able to Edit and add configurations like:
 To run the **tests** or the **repl** from inside Intellij
 
 Try them !
-
-
-
-
-
-
 

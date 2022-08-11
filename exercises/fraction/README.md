@@ -23,7 +23,8 @@ type Fraction = (Int, Int)
 (4,2)
 ```
 
-## 2. Implement the Highest common factor function **`hcf`** _(AKA greatest common divisor)_
+## 2. Implement the Highest common factor function hcf (AKA greatest common divisor)
+
 ```Haskell
 > hcf 4 2
 2
@@ -42,6 +43,21 @@ type Fraction = (Int, Int)
 (1, 4)
 >mul (1,2) (1,4)
 (1,8)
-> div (1,2) (1,4)
+>div (1,2) (1,4)
 (2,1)
+```
+
+To Tests this go to **Test.hs** and comment/uncomment the 2 main functions alternatives
+
+```haskell
+-- Comment this line and uncomment the line below to run the tests doing simplification
+main = hspec $ test id
+-- main = hspec $ test simplify
+```
+
+Should become
+```haskell
+-- Comment this line and uncomment the line below to run the tests doing simplification
+-- main = hspec $ test id
+main = hspec $ test simplify
 ```
