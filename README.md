@@ -6,6 +6,8 @@
 1. [Introduction](classes/Class-01.slides.html)
 2. [List, Higher Order Functions](classes/Class-02.slides.html)
 3. [User defined types, Error handling, Type classes](classes/Class-03.slides.html)
+4. [Input Output, Functors, Modules](classes/Class-04.slides.html)
+5. [Monads](classes/Class-05.slides.html)
 
 
 ### Trabajos Prácticos
@@ -16,6 +18,10 @@
 2. TP2:
     - [Ejercicios Listas](exercises/lists/README.md)  
 
+3. TP3:
+    - [Ejercicios Listas Parte 2](exercises/lists2/README.md) 
+
+     
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 

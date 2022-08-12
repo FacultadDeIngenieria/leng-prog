@@ -34,7 +34,7 @@ binaryToDecimal :: [Int] -> Int
 binaryToDecimal = error "Implement it"
     
 toDecimal :: Int -> [Int] -> Int
-toDecimal = error "Implement it"   
+toDecimal = error "Implement it"
     
 toDec::Int -> String -> Int
 toDec base s =  = error "Implement it"
@@ -43,6 +43,9 @@ toDec base s =  = error "Implement it"
 
 decimal::Int -> String -> Int
 decimal  = error "Implement it"
+
+firsts::[a] -> [[a]]
+firsts = error "Implement it"
 
 -- Given two String that represents numbers in binary implement the 'binaryAdd' function
 -- DO NOT USE a predefined '+' operation

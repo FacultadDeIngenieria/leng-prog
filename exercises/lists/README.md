@@ -91,7 +91,22 @@ Repeat the last exercise using a List Comprehension and the `zip` function
 > decimal 16 "1F"
 31
 ```
-## 4. Binary Operations -- BONUS exercise
+
+## 4. Firsts Elements of a list
+
+Given a List, return a **Nested List** containing:
+
+The first element, the first 2 elements, the first 3 elements, etc.
+
+```haskell
+> firsts [1, 3, 5]
+[[1],[1,3],[1,3,5]]
+> firsts "Hello"
+["H","He","Hel","Hell","Hello"]
+```
+
+
+## 5. Binary Operations -- BONUS exercise
 
 Given two `Strings` that represents numbers in binary.
 Implement the 'binaryAdd' function.
