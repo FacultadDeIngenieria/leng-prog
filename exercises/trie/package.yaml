@@ -1,0 +1,22 @@
+name:                trie
+version:             1.0.0.0
+author:              "Emilio LG"
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+
+library:
+#  exposed-modules: Trie, Bit
+  source-dirs: src
+  ghc-options: -Wall -Wno-type-defaults
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - trie
+      - hspec

@@ -21,6 +21,9 @@
 3. TP3:
     - [Ejercicios Listas Parte 2](exercises/lists2/README.md) 
 
+4. TP4:
+    - [Binary Trie](exercises/trie/README.md) 
+
      
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
