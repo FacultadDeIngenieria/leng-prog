@@ -1,4 +1,4 @@
-module Trie  (Trie(..), left, right, find, decode) where
+module Trie  (Trie(..), left, right, find, decode, toList) where
 
 import Bit
   
@@ -11,8 +11,10 @@ right::Trie a -> Trie a
 left = error "Define it"
   
 find::Bits -> Trie a -> a
-left = error "Define it"
+find = error "Define it"
 
 decode::Bits -> Trie Char -> String
-left = error "Define it"
-             
+decode = error "Define it"
+
+toList::Trie a -> [(a, Bits)]
+toList = error "Define it"

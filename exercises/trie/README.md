@@ -58,3 +58,10 @@ Consuming the List of Bits until its empty
 > decode [T, F, F, F, T, F, F] t
 "CABA"
 ```
+
+## 4. Given a Trie return a List of Tuples with the mapping of the value to `Bits`
+
+```haskell
+> toList t
+[('A', [F, F]), ('B', [F, T]), ('C', [T])]
+```
