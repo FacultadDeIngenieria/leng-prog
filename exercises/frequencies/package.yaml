@@ -1,0 +1,24 @@
+name:                frequencies
+version:             1.0.0.0
+author:              "Emilio LG"
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+  - containers
+
+library:
+  exposed-modules: Frequencies
+  source-dirs: src
+  ghc-options: -Wall -Wno-type-defaults
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - frequencies
+      - hspec
+
