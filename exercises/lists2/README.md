@@ -7,7 +7,7 @@ You have to implement exercises working over lists
 You have a type defined as:
 
 ```haskell
-data Bit = T | F
+data Bit = F | T
 
 type Bits = [Bit]
 ```
@@ -18,10 +18,10 @@ You need to create function to convert a `Char` to a list of bits `Bits`
 
 ```haskell
 > charToBits 'A'
-[F,T,F,F,F,F,F,T]
+[F,F,T,F,F,F,F,F]
 
 > charToBits 'a'
-[F,T,T,F,F,F,F,T]
+[F,F,T,T,F,F,F,F]
 
 > charToBits '\0'
 [F,F,F,F,F,F,F,F]
