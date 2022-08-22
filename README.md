@@ -23,6 +23,7 @@
 
 4. TP4:
     - [Binary Trie](exercises/trie/README.md)
+    - [Shapes](exercises/shape/README.md)
 
 5. TP5:
     - [Frequencies](exercises/frequencies/README.md) 	 

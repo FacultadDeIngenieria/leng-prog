@@ -1,0 +1,24 @@
+name:                shape
+version:             1.0.0.0
+github:              "emiliolg/shape"
+author:              "Emilio LG"
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+
+library:
+  exposed-modules: Shape
+  source-dirs: src
+  ghc-options: -Wall -Wno-type-defaults
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - shape
+      - hspec
+
