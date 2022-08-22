@@ -18,10 +18,10 @@ You need to create function to convert a `Char` to a list of bits `Bits`
 
 ```haskell
 > charToBits 'A'
-[F,F,T,F,F,F,F,F]
+[F,T,F,F,F,F,F,T]
 
 > charToBits 'a'
-[F,F,T,T,F,F,F,F]
+[F,T,T,F,F,F,F,T]
 
 > charToBits '\0'
 [F,F,F,F,F,F,F,F]
@@ -48,14 +48,14 @@ Using the function defined in the previous exercise define a function `bits` to 
 
 ```haskell
 > bits "AB"  
-[F,F,T,F,F,F,F,F,F,F,T,F,F,F,F,T]
+[F,T,F,F,F,F,F,T,F,T,F,F,F,F,T,F]
 ```
 
 It is a plus if it works with infinite lists:
 
 ```haskell
 > take 15 $ bits $ cycle "AB"
-[F,F,T,F,F,F,F,F,F,F,T,F,F,F,F]
+[F,T,F,F,F,F,F,T,F,T,F,F,F,F,T]
 ```
 
 Try to use the `map` and `foldr` functions to implement it

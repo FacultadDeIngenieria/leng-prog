@@ -5,16 +5,16 @@ main :: IO ()
 main = hspec $ do
   describe "charToBits" $ do
     it "A" $ do
-      charToBits 'A' `shouldBe` [F,F,T,F,F,F,F,F]
+      charToBits 'A' `shouldBe` [F,T,F,F,F,F,F,T]
     it "B" $ do
-      charToBits 'B' `shouldBe` [F,F,T,F,F,F,F,T]
+      charToBits 'B' `shouldBe` [F,T,F,F,F,F,T, F]
     it "Char 0" $ do
       charToBits '\0' `shouldBe` [F,F,F,F,F,F,F,F]
       
       
   describe "bits" $ do
     it "AB" $ do
-      bits "AB" `shouldBe` [F,F,T,F,F,F,F,F,F,F,T,F,F,F,F,T]
+      bits "AB" `shouldBe` [F,T,F,F,F,F,F,T,F,T,F,F,F,F,T,F]
     it "\"\"" $ do
       bits "" `shouldBe` []
       
