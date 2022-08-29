@@ -1,0 +1,13 @@
+module Main(main) where
+
+import Frequencies
+import System.Environment
+
+main :: IO ()
+main = error "Implement It"
+       
+freq :: FilePath -> IO ()
+freq fileName = error "Implement It"
+
+printLines::[Frequency] -> IO ()
+printLines [] = error "Implement it"

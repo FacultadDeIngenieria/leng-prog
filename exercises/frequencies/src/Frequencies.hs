@@ -14,3 +14,6 @@ frequencyMap = error "Implement it"
 
 insert::(Ord a) => a -> [a] -> [a]
 insert = error "Implement it"
+
+insertionSort :: (Ord a) => [a] -> [a]
+insertionSort = error "Implement it"
