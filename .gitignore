@@ -33,6 +33,10 @@ out/
 *.cabal
 stack.yaml.lock
 
+# Cargo
+Cargo.lock
+target/
+
 # Mac stuff
 
 .DS_Store
