@@ -8,7 +8,8 @@
 3. [User defined types, Error handling, Type classes](classes/Class-03.slides.html)
 4. [Input Output, Functors, Modules](classes/Class-04.slides.html)
 5. [Monads](classes/Class-05.slides.html)
-
+6. **Primer Parcial**
+7. [Introduction to Rust](classes/Class-06.slides.html)
 
 ### Trabajos Prácticos
 1. TP1:
@@ -26,7 +27,10 @@
     - [Shapes](exercises/shape/README.md)
 
 5. TP5:
-    - [Frequencies](exercises/frequencies/README.md) 	 
+    - [Frequencies](exercises/frequencies/README.md)
+   
+6. 	TP6:
+    - [Huffman](exercises/huffman/README.md) 
      
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
