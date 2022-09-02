@@ -64,6 +64,6 @@ It should open the project.
 #### 2.Now you can run it.
 
 * Check running `main` **(src/main/main.rs)**
-* You can also create a **breakpoint** and run it with **debugger**
+* You can also try creating a **breakpoint** and run it with **debugger**
 * Check running the test from the ide **(tests/example.rs)**
-* Try debugging it
+* Try debugging the test
