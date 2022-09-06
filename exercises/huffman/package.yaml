@@ -1,0 +1,32 @@
+name:                huffman
+version:             1.0.0.0
+github:              "emiliolg/huffman"
+author:              "Emilio LG"
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+  - containers
+
+executables:
+  huffman:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+      - huffman
+
+library:
+  exposed-modules: Huffman
+  source-dirs: src
+  ghc-options: -Wall -Wno-type-defaults
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - huffman
+      - hspec
+
