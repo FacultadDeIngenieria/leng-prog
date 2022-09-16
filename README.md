@@ -35,7 +35,7 @@
 
 7. TP7:
     - [Fraction in Rust](rust-exercises/fraction)
-    - [Collatz  in Rust](rust-exercises/collatz)
+    - [Collatz  in Rust](rust-exercises/collatz-conjecture)
 
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
