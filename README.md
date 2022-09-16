@@ -10,27 +10,30 @@
 5. [Monads](classes/Class-05.slides.html)
 6. **Primer Parcial**
 7. [Introduction to Rust](classes/Class-06.slides.html)
+8. [Rust Memory model](classes/Class-07.slides.html)
 
 ### Trabajos Prácticos
 1. TP1:
-    - [Fraction](exercises/fraction/README.md)  
-    - [Collatz Conjecture](exercises/collatz-conjecture/README.md)  
+    - [Fraction](haskell-exercises/fraction/README.md)  
+    - [Collatz Conjecture](haskell-exercises/collatz-conj(haskell-exercisesecture/README.md)  
 
 2. TP2:
-    - [Ejercicios Listas](exercises/lists/README.md)  
+    - [Ejercicios Listas](haskell-exercises/lists/README.md)  
 
 3. TP3:
-    - [Ejercicios Listas Parte 2](exercises/lists2/README.md) 
+    - [Ejercicios Listas Parte 2](haskell-exercises/lists2/README.md) 
 
 4. TP4:
-    - [Binary Trie](exercises/trie/README.md)
-    - [Shapes](exercises/shape/README.md)
+    - [Binary Trie](haskell-exercises/trie/README.md)
+    - [Shapes](haskell-exercises/shape/README.md)
 
 5. TP5:
-    - [Frequencies](exercises/frequencies/README.md)
+    - [Frequencies](haskell-exercises/frequencies/README.md)
    
 6. 	TP6:
-    - [Huffman](exercises/huffman/README.md) 
+    - [Huffman](haskell-exercises/huffman/README.md) 
+7. TP7:
+	- [Fracion in Rust](rust-exercises/fraction/README.md)
      
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
