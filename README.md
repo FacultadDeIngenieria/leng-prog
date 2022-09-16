@@ -15,7 +15,7 @@
 ### Trabajos Prácticos
 1. TP1:
     - [Fraction](haskell-exercises/fraction/README.md)  
-    - [Collatz Conjecture](haskell-exercises/collatz-conj(haskell-exercisesecture/README.md)  
+    - [Collatz Conjecture](haskell-exercises/collatz-conj/README.md)  
 
 2. TP2:
     - [Ejercicios Listas](haskell-exercises/lists/README.md)  
@@ -33,7 +33,7 @@
 6. 	TP6:
     - [Huffman](haskell-exercises/huffman/README.md) 
 7. TP7:
-	- [Fracion in Rust](rust-exercises/fraction/README.md)
+	- [Fraction in Rust](rust-exercises/fraction/README.md)
      
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
