@@ -30,11 +30,13 @@
 5. TP5:
     - [Frequencies](haskell-exercises/frequencies/README.md)
    
-6. 	TP6:
+6. TP6:
     - [Huffman](haskell-exercises/huffman/README.md) 
+
 7. TP7:
-	- [Fraction in Rust](rust-exercises/fraction)
-     
+    - [Fraction in Rust](rust-exercises/fraction)
+    - [Collatz  in Rust](rust-exercises/collatz)
+
 ### Calendario
 Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 
