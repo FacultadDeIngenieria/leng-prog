@@ -41,6 +41,7 @@
     - [Fraction as a Type](rust-exercises/fraction_type)
     - [Health Statistics](rust-exercises/health-statistics)
     - [Queen Attack](rust-exercises/queen-attack)
+    - [Clock](rust-exercises/clock)
 9. TP9:
 	- [Sum of Multiples](rust-exercises/sum-of-multiples)
 	- [Word Count](rust-exercises/word-count) 
