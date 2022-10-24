@@ -45,6 +45,8 @@
 9. TP9:
 	- [Sum of Multiples](rust-exercises/sum-of-multiples)
 	- [Word Count](rust-exercises/word-count) 
+10. TP10:
+   - [Circular Buffer](rust-exercises/circular-buffer) 
 
 
 ### Calendario
