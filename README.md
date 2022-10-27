@@ -11,7 +11,8 @@
 6. **Primer Parcial**
 7. [Introduction to Rust](classes/Class-06.slides.html)
 8. [Rust Memory model](classes/Class-07.slides.html)
-9. [Traits, Smart Pointers, Lifetimes](classes/Class-08.slides.html)
+9. [Slices, Vector, iter, HashMap, HOFs](classes/Class-08.slides.html)
+10. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
 
 ### Trabajos Prácticos
 1. TP1:
