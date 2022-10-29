@@ -40,3 +40,7 @@ target/
 # Mac stuff
 
 .DS_Store
+
+# Gradle
+.gradle/
+build/

@@ -49,6 +49,8 @@
 	- [Word Count](rust-exercises/word-count) 
 10. TP10:
    - [Circular Buffer](rust-exercises/circular-buffer) 
+11. TP11:
+   - [Protein Translator](java-exercises/protein-translation) 
 
 
 ### Calendario
