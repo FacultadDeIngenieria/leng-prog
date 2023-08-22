@@ -18,7 +18,7 @@
 ### Trabajos Prácticos
 1. TP1:
     - [Fraction](haskell-exercises/fraction/README.md)  
-    - [Collatz Conjecture](haskell-exercises/collatz-conj/README.md)  
+    - [Collatz Conjecture](haskell-exercises/collatz-conjecture/README.md)  
 
 2. TP2:
     - [Ejercicios Listas](haskell-exercises/lists/README.md)  
