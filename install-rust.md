@@ -67,3 +67,4 @@ It should open the project.
 * You can also try creating a **breakpoint** and run it with **debugger**
 * Check running the test from the ide **(tests/example.rs)**
 * Try debugging the test
+![](![]())
