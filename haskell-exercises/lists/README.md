@@ -4,6 +4,27 @@
 
 You have to implement exercises working over lists
 
+## Remember:
+
+### To enter into the REPL use:
+```shell
+stack ghci
+```
+There you can try the functions, like
+```haskell
+> member 10 [1..12]
+```
+Should print:
+```
+True
+```  
+---
+
+### To run all the tests use:
+```shell
+stack test 
+```
+
 ## 1. List as Sets
 
 Suppose that lists describe a Set of elements.
