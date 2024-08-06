@@ -1,5 +1,5 @@
 module Lists (member, union, intersection, difference,
-              insert, insertionSort,
+              insert, insertionSort, firsts,
               binaryToDecimal, toDecimal, toDec, decimal,
               binaryAdd) where
   
@@ -15,8 +15,6 @@ union [] ys     = ys
 union (x:xs) ys 
   | member x ys = union xs ys
   | otherwise   = x : union xs ys
-
--- Remove Implementations, from, here on
 
 intersection:: [Int] -> [Int] -> [Int]
 intersection = error "Implement it"
@@ -37,7 +35,7 @@ toDecimal :: Int -> [Int] -> Int
 toDecimal = error "Implement it"
     
 toDec::Int -> String -> Int
-toDec base s =  = error "Implement it"
+toDec base s = error "Implement it"
 
 -- Same as `toDec` But use a list comprehension
 

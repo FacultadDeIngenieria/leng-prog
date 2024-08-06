@@ -27,7 +27,7 @@ stack ghci
 ---
 
 ```haskell
-> hello
+> help
 ```
 
 Should print:
