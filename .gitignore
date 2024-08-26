@@ -44,3 +44,6 @@ target/
 # Gradle
 .gradle/
 build/
+
+# compiled
+*.o
