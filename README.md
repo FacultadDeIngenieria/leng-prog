@@ -2,12 +2,14 @@
 
 ## Clases
 
+### [Slides](https://FacultadDeIngenieria.github.io/leng-prog)
+
 ### Temas teórica:
-1. [Introduction](classes/Class-01.slides.html)
-2. [List, Higher Order Functions](classes/Class-02.slides.html)
-3. [User defined types, Error handling, Type classes](classes/Class-03.slides.html)
-4. [Input Output, Functors, Modules](classes/Class-04.slides.html)
-5. [Monads](classes/Class-05.slides.html)
+1. [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+2. [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+3. [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+4. [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+5. [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
 6. **Primer Parcial**
 7. [Introduction to Rust](classes/Class-06.slides.html)
 8. [Rust Memory model](classes/Class-07.slides.html)
