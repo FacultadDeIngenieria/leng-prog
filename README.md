@@ -1,7 +1,4 @@
-# Lenguajes de Programación
-
-## Clases
-
+# [Lenguajes de Programación](https://facultaddeingenieria.github.io/leng-prog)
 
 ### Temas teórica:
 1. [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-01.slides.html)
