@@ -2,13 +2,12 @@
 
 ## Clases
 
-### [Slides](https://FacultadDeIngenieria.github.io/leng-prog)
 
 ### Temas teórica:
-1. [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
-2. [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
-3. [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
-4. [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
+1. [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-01.slides.html)
+2. [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-02.slides.html)
+3. [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-03.slides.html)
+4. [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-04.slides.html)
 5. [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
 6. **Primer Parcial**
 7. [Introduction to Rust](classes/Class-06.slides.html)
@@ -26,8 +25,8 @@
     - [Ejercicios Listas](haskell-exercises/lists/README.md)  
 
 3. TP3:
-    - [Ejercicios Listas Parte 2](haskell-exercises/lists2/README.md) 
-
+    - [Ejercicios Listas Parte 2](haskell-exercises/lists2/README.md)
+    - [Ejercicio 8 Queens resuelto](https://FacultadDeIngenieria.github.io/leng-prog)
 4. TP4:
     - [Binary Trie](haskell-exercises/trie/README.md)
     - [Shapes](haskell-exercises/shape/README.md)
