@@ -7,11 +7,11 @@
 4. [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-04.slides.html)
 5. [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
 6. **Primer Parcial**
-7. [Introduction to Rust](classes/Class-06.slides.html)
-8. [Rust Memory model](classes/Class-07.slides.html)
-9. [Slices, Vector, iter, HashMap, HOFs](classes/Class-08.slides.html)
-10. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
-11. [Functional Programming in Java & new Features](classes/Class-10.slides.html)
+7. [Introduction to C](classes/C-Introduction.html)
+9. [Introduction to Rust](classes/Class-06.slides.html)
+9. [Rust Memory model](classes/Class-07.slides.html)
+10. [Slices, Vector, iter, HashMap, HOFs](classes/Class-08.slides.html)
+11. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
 
 ### Trabajos Prácticos
 1. TP1:
