@@ -12,7 +12,7 @@
 9.  [Introduction to Rust](classes/rust/01-Introduction.slides.html)
 10. [References, Structs & Traits](classes/rust/02-Refs-Structs-Traits.slides.html)
 11. [Rust Memory management](classes/Rust-03-Memory-Managment.html)
-12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.md)
+12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.html)
 13. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
 
 ### Trabajos Prácticos
