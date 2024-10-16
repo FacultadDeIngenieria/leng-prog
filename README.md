@@ -13,7 +13,7 @@
 10. [References, Structs & Traits](classes/rust/02-Refs-Structs-Traits.slides.html)
 11. [Rust Memory management](classes/Rust-03-Memory-Managment.html)
 12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.html)
-13. [Rc, Traits, Generics, Lifetimes, Unicode](classes/Class-09.slides.html)
+13. [Smart References, Lifetimes, Dynamic Polymorphism](classes/Rust-05-SmartPointers.html)
 
 ### Trabajos Prácticos
 1. TP1:
