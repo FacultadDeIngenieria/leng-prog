@@ -14,6 +14,8 @@
 11. [Rust Memory management](classes/Rust-03-Memory-Managment.html)
 12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.html)
 13. [Smart Pointers, Lifetimes, Dynamic Polymorphism](classes/Rust-05-SmartPointers.html)
+14. [Macros, Unsafe code](classes/Rust-06-Macros.html)
+15. [Unicode](classes/Unicode.html)
 
 ### Trabajos Prácticos
 1. TP1:
