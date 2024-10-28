@@ -95,6 +95,9 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 * [Haskell oficial web site](https://www.haskell.org)
 * [Learn You a Haskell for Great Good](http://learnyouahaskell.com)
 * [A gentle introduction to Haskell](files/haskell-98-tutorial.pdf)
+* [The Rust Book](https://doc.rust-lang.org/book/)
+* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+* [Exercise in Rust, Rustlings](https://github.com/rust-lang/rustlings)
 
 ## Recursos
 
