@@ -7,7 +7,7 @@ dependencies:
 library:
   exposed-modules: Fraction
   source-dirs: src
-  ghc-options: -Wall
+  ghc-options: -Wall  -Wno-type-defaults
 
 tests:
   test:
