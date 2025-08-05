@@ -25,5 +25,3 @@ Now check that is there.
 ### Windows
 
 Use the default installer: [Here] (https://gitforwindows.org) or [Here](https://git-scm.com/download/win)
-
-It should also install 

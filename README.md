@@ -1,78 +1,24 @@
 # [Lenguajes de Programación](https://facultaddeingenieria.github.io/leng-prog)
 
-### Temas teórica:
-
-1.  [Introduction](https://facultaddeingenieria.github.io/leng-prog/classes/Class-01.slides.html)
-2.  [List, Higher Order Functions](https://facultaddeingenieria.github.io/leng-prog/classes/Class-02.slides.html)
-3.  [User defined types, Error handling, Type classes](https://facultaddeingenieria.github.io/leng-prog/classes/Class-03.slides.html)
-4.  [Input Output, Modules](https://facultaddeingenieria.github.io/leng-prog/classes/Class-04.slides.html)
-5.  [Functors & Monads](https://facultaddeingenieria.github.io/leng-prog/classes/Class-05.slides.html)
-6.  **Primer Parcial**
-7.  [Introduction to C](classes/C-Introduction.html)
-9.  [Introduction to Rust](classes/rust/01-Introduction.slides.html)
-10. [References, Structs & Traits](classes/rust/02-Refs-Structs-Traits.slides.html)
-11. [Rust Memory management](classes/Rust-03-Memory-Managment.html)
-12. [Slices, Vector, iter, HashMap, HOFs](classes/Rust-04-Collections.html)
-13. [Smart Pointers, Lifetimes, Dynamic Polymorphism](classes/Rust-05-SmartPointers.html)
-14. [Macros, Unsafe code](classes/Rust-06-Macros.html)
-15. [Unicode](classes/Unicode.html)
-
-### Trabajos Prácticos
-1. TP1:
-    - [Fraction](haskell-exercises/fraction/README.md)  
-    - [Collatz Conjecture](haskell-exercises/collatz-conjecture/README.md)  
-
-2. TP2:
-    - [Ejercicios Listas](haskell-exercises/lists/README.md)  
-
-3. TP3:
-    - [Ejercicios Listas Parte 2](haskell-exercises/lists2/README.md)
-    - [Ejercicio 8 Queens resuelto](https://FacultadDeIngenieria.github.io/leng-prog)
-4. TP4:
-    - [Binary Trie](haskell-exercises/trie/README.md)
-    - [Shapes](haskell-exercises/shape/README.md)
-
-5. TP5:
-    - [Frequencies](haskell-exercises/frequencies/README.md)
-   
-6. TP6:
-    - [Huffman](haskell-exercises/huffman/README.md) 
-
-7. TP7:
-    - [Fraction in Rust](rust-exercises/fraction)
-    - [Collatz  in Rust](rust-exercises/collatz-conjecture)
-8. TP8:
-    - [Fraction as a Type](rust-exercises/fraction_type)
-    - [Health Statistics](rust-exercises/health-statistics)
-    - [Queen Attack](rust-exercises/queen-attack)
-    - [Clock](rust-exercises/clock)
-9. TP9:
-	- [Sum of Multiples](rust-exercises/sum-of-multiples)
-	- [Word Count](rust-exercises/word-count) 
-10. TP10:
-   - [Circular Buffer](rust-exercises/circular-buffer) 
-11. TP11:
-   - [Protein Translator](java-exercises/protein-translation) 
-
-
 ### Calendario
-Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 
-1. 1,2 Agosto
-2. 8,9,16 Agosto
-3. 22,23 Agosto 
-4. 29,30 Agosto 
-5. 5,6 Septiembre 
-6. 12,13 Septiembre (Primer Parcial)
-7. 19,20 Septiembre 
-8. 26,27 Septiembre 
-9. 3,4 Octubre 
-10. 17, 18 Octubre 
-11. 24, 25 Octubre
-12. 31,1 Octubre 
-13. 7, 8 Noviembre
-14. 14, 15 Noviembre
-
+| Clase   | Fecha     | Tema                                                                 |
+|---------|-----------|----------------------------------------------------------------------|
+| Clase 1 | 5/8/25    | Introducción a Lenguajes, Introducción a C                          |
+| Clase 2 | 12/8/25   | Problemas de memoria en C                                           |
+| Clase 3 | 19/8/25   | Paradigmas de Programación, Rust 1                                  |
+| Clase 4 | 26/8/25   | Rust 2                                                              |
+| Clase 5 | 2/9/25    | Rust 3                                                              |
+| Clase 6 | 9/9/25    | Rust 4                                                              |
+| Clase 7 | 16/9/25   | Rust 5                                                              |
+| Clase 8 | 23/9/25   | Parcial 1                                                           |
+| Clase 9 | 30/9/25   | Haskell 1                                                           |
+| Clase 10| 7/10/25   | Haskell 2                                                           |
+| Clase 11| 14/10/25  | Haskell 3                                                           |
+| Clase 12| 21/10/25  | Haskell 4                                                           |
+| Clase 13| 28/10/25  | Haskell 5                                                           |
+| Clase 14| 4/11/25   | Parcial 2                                                           |
+| Clase 15| 11/11/25  | FP aplicado (spark, airflow, other tools built around FP concepts)   |
 
 ## Environment setup:
    
@@ -84,10 +30,13 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
         - or
         - `git clone https://github.com/FacultadDeIngenieria/leng-prog.git` 
 
-2. Haskell
+2. C
+    - [Instalar C](install-c.md)
+
+3. Haskell
     - [Install Haskell](install-haskell.md)
     
-3. Rust
+4. Rust
     - [Install Rust](install-rust.md)
 
 ## Bibliografía
@@ -98,11 +47,16 @@ Teoria: Lunes 16 a 19, Práctica Martes de 17 a 19
 * [The Rust Book](https://doc.rust-lang.org/book/)
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 * [Exercise in Rust, Rustlings](https://github.com/rust-lang/rustlings)
+* [The C Programming Language 2nd Edition](https://www.cimat.mx/~gil/ciencia_para_jovenes/bachillerato/libros/[Kernighan-Ritchie]The_C_Programming_Language.pdf)
 
 ## Recursos
 
 * [Haskell library search Engine](https://hoogle.haskell.org)
 * [Haskell package repository](https://hackage.haskell.org)
+
+## Profesores
+* Emilio Lopez Gabeiras (emilio@ing.austral.edu.ar )
+* Rodrigo Pazos (rodrigo.pazos@ing.austral.edu.ar)
 
 
 
