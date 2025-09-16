@@ -53,6 +53,7 @@
 
 * [Haskell library search Engine](https://hoogle.haskell.org)
 * [Haskell package repository](https://hackage.haskell.org)
+* [Rustlings - Ejercicios de Rust para practicar](https://rustlings.rust-lang.org/)
 
 ## Profesores
 * Emilio Lopez Gabeiras (emilio@ing.austral.edu.ar )
